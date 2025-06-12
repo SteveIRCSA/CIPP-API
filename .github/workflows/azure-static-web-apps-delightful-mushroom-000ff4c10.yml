@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - interface-rewrite
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - interface-rewrite
+#  pull_request:
+#   types: [opened, synchronize, reopened, closed]
+#   branches:
+#      - interface-rewrite
 
 jobs:
   build_and_deploy_job:
